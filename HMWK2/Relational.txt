@@ -1,0 +1,20 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package esof.hmwk.pkg2;
+
+import java.io.IOException;
+
+
+/**
+ *
+ * @author ranso
+ */
+public class Relational extends Database{
+    public void store() throws IOException{
+        Store(1);
+    }
+    
+}
